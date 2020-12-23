@@ -21,7 +21,7 @@
 
             {{-- Posts relacionados --}}
             <aside>
-                <h1 class="text-xl font-bold text-gray-600 mt-4">Más en {{$post->category->name}}</h1>
+                <h1 class="text-xl font-bold text-gray-600 mt-4">Más en: {{$post->category->name}}</h1>
 
                 <ul>
                     @foreach ($similares as $similar)
